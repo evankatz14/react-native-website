@@ -827,6 +827,16 @@ Allows you to set all the font variants for a font. Can be set by using an array
 
 ---
 
+### `fontVariationSettings`
+
+Configures variation axes for a variable font. Each axis is identified by a four-character OpenType tag, such as `wght` for weight, `wdth` for width, `opsz` for optical size, or a custom axis supported by the font. Settings can be provided as an object or as a CSS-compatible string
+
+| Type                                         |
+| -------------------------------------------- |
+| string or object: `{[axis: string]: number}` |
+
+---
+
 ### `letterSpacing`
 
 Increase or decrease the spacing between characters. By default there is no extra letter spacing.
