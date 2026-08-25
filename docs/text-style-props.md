@@ -834,14 +834,14 @@ Configures variation axes for a variable font. Each axis is identified by a four
 The object and string forms below are equivalent; both set the wght axis to 500:
 
 ```tsx
-  <Text
-    style={{
-      fontVariationSettings: {wght: 500},
-      // Equivalent CSS-compatible string:
-      fontVariationSettings: "'wght' 500",
-    }}>
-    Variable font
-  </Text>
+<Text
+  style={{
+    fontVariationSettings: {wght: 500},
+    // Equivalent CSS-compatible string:
+    fontVariationSettings: "'wght' 500",
+  }}>
+  Variable font
+</Text>
 ```
 
 For more information about variation axes and the CSS string syntax, see MDN's font-variation-settings (https://developer.mozilla.org/en-US/docs/Web/CSS/font-variation-settings) documentation.
